@@ -209,7 +209,7 @@
 <div id="container">
     <div id="player1">
         <div id="p1score">
-            <h1>Red</h1>
+            <h1>红方</h1>
             <ul>
                 <li class="scoreblock plus" onclick="addOne(score1)" id="1">+</li>
                 <li class="scoreblock minus" onclick="minusOne(score1)">-</li>
@@ -225,7 +225,7 @@
     <div id="player2">
         <div id="p2score">
 
-            <h1>Blueness</h1>
+            <h1>青方</h1>
             <ul>
                 <li class="scoreblock plus" onclick="addOne(score2)">+</li>
                 <li class="scoreblock minus" onclick="minusOne(score2)">-</li>
@@ -254,13 +254,15 @@
     }
 
     #player1 {
-        background-color: background-color: #FBDA61;
-        background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+        /*background-color: background-color: #FBDA61;*/
+        background-color: #FBDA61;
+        /*background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);*/
+        background-image: linear-gradient(45deg, blue 0%, blue 100%);
         float: left;
-        width: 250px;
-        /*width: 200px;*/
-        height: 450px;
-        /*height: 400px;*/
+        /*width: 250px;*/
+        width: 200px;
+        /*height: 450px;*/
+        height: 350px;
         margin: 0 auto;
     }
 
@@ -273,12 +275,14 @@
 
     #player2 {
         background-color: background-color: #08AEEA;
-        background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
+        /*background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);*/
+        background-image: linear-gradient(0deg, red 0%, red 100%);
         border-bottom-left-radius: 30px;
         border-bottom-right-radius: 30px;
         float: right;
         width: 250px;
-        height: 450px;
+        /*height: 450px;*/
+        height: 350px;
         margin: 0 auto;
     }
 
